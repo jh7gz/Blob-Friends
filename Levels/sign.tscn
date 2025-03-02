@@ -9,10 +9,10 @@ radius = 32.0
 script = ExtResource("1_hdhrp")
 
 [node name="Locations" type="Label" parent="."]
-offset_left = -80.0
-offset_top = -32.0
-offset_right = -24.0
-offset_bottom = -1.0
+offset_left = -67.0
+offset_top = -64.0
+offset_right = 77.0
+offset_bottom = 8.0
 theme_override_font_sizes/font_size = 12
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

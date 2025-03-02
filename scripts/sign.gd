@@ -12,4 +12,4 @@ func _on_body_exited(body: Node2D) -> void:
 	
 func _shortcut_input(inp):
 	if inp.is_action_pressed("interact") and inside:
-		locations.text = "Lake V\nHouse >\nMaze >"
+		locations.text = "                               House >\nLake V\n                               Maze >"
