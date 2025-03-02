@@ -1,5 +1,6 @@
-[gd_scene load_steps=23 format=3 uid="uid://ci7wcw1eo2g4k"]
+[gd_scene load_steps=37 format=3 uid="uid://ci7wcw1eo2g4k"]
 
+[ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_0eti7"]
 [ext_resource type="PackedScene" uid="uid://bsqwadeopehg2" path="res://Levels/player_cat.tscn" id="1_k0pve"]
 [ext_resource type="Texture2D" uid="uid://cb0jsypdhjlx5" path="res://assets/Tilesets/Grass.png" id="2_nb4eb"]
 [ext_resource type="Texture2D" uid="uid://c7q4ad7gj682v" path="res://assets/Tilesets/Hills.png" id="3_i0qns"]
@@ -11,6 +12,9 @@
 [ext_resource type="Texture2D" uid="uid://b24kr7pgem3vl" path="res://assets/Tilesets/Wooden_House_Roof_Tilset.png" id="8_87c4c"]
 [ext_resource type="Texture2D" uid="uid://pawqs57ymh4q" path="res://assets/Tilesets/Wooden_House_Walls_Tilset.png" id="9_11kj8"]
 [ext_resource type="Texture2D" uid="uid://pb1leeitrh1u" path="res://assets/Tilesets/Doors.png" id="10_ah5dg"]
+[ext_resource type="PackedScene" uid="uid://d3jlrhqsyhykn" path="res://Levels/friend.tscn" id="12_7akwp"]
+[ext_resource type="Texture2D" uid="uid://ppmg27y8cpki" path="res://assets/Objects/Friend Second.png" id="14_0kqvq"]
+[ext_resource type="Texture2D" uid="uid://cs20b60x6t17v" path="res://assets/Objects/Friend first.png" id="14_cx843"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_62rpm"]
 texture = ExtResource("2_nb4eb")
@@ -460,8 +464,132 @@ sources/7 = SubResource("TileSetAtlasSource_umh1g")
 sources/8 = SubResource("TileSetAtlasSource_3iog1")
 sources/10 = SubResource("TileSetAtlasSource_w4nt8")
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_ca2ra"]
+atlas = ExtResource("14_0kqvq")
+region = Rect2(21, 19, 218, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ausb"]
+atlas = ExtResource("14_0kqvq")
+region = Rect2(239, 19, 218, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5svwo"]
+atlas = ExtResource("14_0kqvq")
+region = Rect2(457, 19, 218, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0hklq"]
+atlas = ExtResource("14_0kqvq")
+region = Rect2(675, 19, 218, 200)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_38qso"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca2ra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca2ra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ausb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca2ra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca2ra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ausb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca2ra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca2ra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ausb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca2ra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ca2ra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ausb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5svwo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5svwo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0hklq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0hklq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ausb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhyxw"]
+atlas = ExtResource("14_cx843")
+region = Rect2(40, 51, 188, 134)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hwmt4"]
+atlas = ExtResource("14_cx843")
+region = Rect2(228, 51, 188, 134)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dulp3"]
+atlas = ExtResource("14_cx843")
+region = Rect2(416, 51, 188, 134)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_26c68"]
+atlas = ExtResource("14_cx843")
+region = Rect2(604, 51, 188, 134)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pgvrn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhyxw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hwmt4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dulp3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhyxw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hwmt4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dulp3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_26c68")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
 [node name="Game Level" type="Node2D"]
 y_sort_enabled = true
+
+[node name="Game Manager" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("1_0eti7")
 
 [node name="PlayerCat" parent="." instance=ExtResource("1_k0pve")]
 position = Vector2(471, 281)
@@ -485,3 +613,35 @@ layer_2/tile_data = PackedInt32Array(524304, 131077, 3, 524305, 131077, 3, 52430
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(471, 281)
 position_smoothing_enabled = true
+
+[node name="Friend count" type="Label" parent="Camera2D"]
+offset_left = -64.0
+offset_top = -75.0
+offset_right = 64.0
+offset_bottom = -52.0
+theme_override_font_sizes/font_size = 8
+text = "Friends Found: 0"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="friends" type="Node" parent="."]
+
+[node name="friend2" parent="friends" instance=ExtResource("12_7akwp")]
+position = Vector2(1416, 304)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="friends/friend2"]
+position = Vector2(-2.69413e-05, -2.38419e-07)
+scale = Vector2(0.13, 0.13)
+sprite_frames = SubResource("SpriteFrames_38qso")
+autoplay = "default"
+frame_progress = 0.990848
+
+[node name="friend" parent="friends" instance=ExtResource("12_7akwp")]
+position = Vector2(368, 656)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="friends/friend"]
+position = Vector2(1.43051e-06, 4.76837e-07)
+scale = Vector2(0.160448, 0.160448)
+sprite_frames = SubResource("SpriteFrames_pgvrn")
+autoplay = "default"
+frame_progress = 0.58385
