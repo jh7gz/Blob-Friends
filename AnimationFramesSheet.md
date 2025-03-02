@@ -58,10 +58,14 @@ Player Animations:
 
 *Note: the WalkUp and WalkDown GIFs are acting weird; they do not do this in game.
 
+Idle:
+
+![hippo](https://media.discordapp.net/attachments/1345480835536519188/1345804082048143411/ezgif.com-animated-gif-maker_14.gif?ex=67c5e138&is=67c48fb8&hm=2a3f8c930f4cf84dd3c4edb9ac802d7c7d44e10a68800a685dec0d8523105a05&=&width=75&height=123)
+
+
 WalkDown:
 
-![hippo](https://media.discordapp.net/attachments/1345480835536519188/1345481274802045059/ezgif.com-animated-gif-maker_4.gif?ex=67c55d55&is=67c40bd5&hm=5a30daf4d117977c9b046698642dd76b73dae94e38a98b32a1bf16de613c4e43&=&width=75&height=123)
-
+![hippo](https://media.discordapp.net/attachments/1338718473978904649/1345805132981338213/ezgif.com-animated-gif-maker_15.gif?ex=67c5e233&is=67c490b3&hm=0533bac6f47ca45c734c65f98841bb69e98807102e83c522a057d434a9e3d08a&=&width=75&height=123)
 
 WalkUp:
 
