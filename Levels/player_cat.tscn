@@ -150,7 +150,7 @@ position = Vector2(2.95455, -1.21808)
 scale = Vector2(0.225741, 0.225741)
 sprite_frames = SubResource("SpriteFrames_l4hh2")
 animation = &"WalkRight"
-frame_progress = 0.696541
+frame_progress = 0.63731
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 y_sort_enabled = true
