@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=3 uid="uid://ci7wcw1eo2g4k"]
+[gd_scene load_steps=48 format=3 uid="uid://ci7wcw1eo2g4k"]
 
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_0eti7"]
 [ext_resource type="PackedScene" uid="uid://bsqwadeopehg2" path="res://Levels/player_cat.tscn" id="1_k0pve"]
@@ -15,6 +15,8 @@
 [ext_resource type="PackedScene" uid="uid://d3jlrhqsyhykn" path="res://Levels/friend.tscn" id="12_7akwp"]
 [ext_resource type="Texture2D" uid="uid://ppmg27y8cpki" path="res://assets/Objects/Friend Second.png" id="14_0kqvq"]
 [ext_resource type="Texture2D" uid="uid://cs20b60x6t17v" path="res://assets/Objects/Friend first.png" id="14_cx843"]
+[ext_resource type="Texture2D" uid="uid://dqkt2rimattom" path="res://assets/Objects/Friend Third.png" id="16_np2dk"]
+[ext_resource type="Texture2D" uid="uid://baxq8e1ta7t65" path="res://assets/Objects/Friend Fourth.png" id="17_jkcvi"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_62rpm"]
 texture = ExtResource("2_nb4eb")
@@ -584,6 +586,71 @@ animations = [{
 "speed": 4.0
 }]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_vdjk3"]
+atlas = ExtResource("16_np2dk")
+region = Rect2(16, 32, 222, 190)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y67cx"]
+atlas = ExtResource("16_np2dk")
+region = Rect2(238, 32, 222, 190)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nqmbk"]
+atlas = ExtResource("16_np2dk")
+region = Rect2(460, 32, 222, 190)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3xb6k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vdjk3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y67cx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nqmbk")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6yi43"]
+atlas = ExtResource("17_jkcvi")
+region = Rect2(27, 45, 225, 124)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bv054"]
+atlas = ExtResource("17_jkcvi")
+region = Rect2(252, 45, 225, 124)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tmqd6"]
+atlas = ExtResource("17_jkcvi")
+region = Rect2(477, 45, 225, 124)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b0ql8"]
+atlas = ExtResource("17_jkcvi")
+region = Rect2(702, 45, 225, 124)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d4f0x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6yi43")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bv054")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tmqd6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b0ql8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
 [node name="Game Level" type="Node2D"]
 y_sort_enabled = true
 
@@ -646,3 +713,23 @@ scale = Vector2(0.160448, 0.160448)
 sprite_frames = SubResource("SpriteFrames_pgvrn")
 autoplay = "default"
 frame_progress = 0.58385
+
+[node name="friend3" parent="friends" instance=ExtResource("12_7akwp")]
+position = Vector2(656, 408)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="friends/friend3"]
+position = Vector2(1.43051e-06, 2.86102e-06)
+scale = Vector2(0.123684, 0.123684)
+sprite_frames = SubResource("SpriteFrames_3xb6k")
+autoplay = "default"
+frame_progress = 0.915822
+
+[node name="friend4" parent="friends" instance=ExtResource("12_7akwp")]
+position = Vector2(680, 408)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="friends/friend4"]
+position = Vector2(0, -3.8147e-06)
+scale = Vector2(0.185484, 0.185484)
+sprite_frames = SubResource("SpriteFrames_d4f0x")
+autoplay = "default"
+frame_progress = 0.609808
