@@ -139,19 +139,20 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oj36o"]
-size = Vector2(4, 7)
+size = Vector2(8.5, 8.75)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_7xai2")
 SPEED = 5000
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(1, 1)
-scale = Vector2(0.181818, 0.181818)
+position = Vector2(2.95455, -1.21808)
+scale = Vector2(0.225741, 0.225741)
 sprite_frames = SubResource("SpriteFrames_l4hh2")
-animation = &"WalkLeft"
-frame_progress = 0.774862
+animation = &"WalkRight"
+frame_progress = 0.696541
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 5)
+y_sort_enabled = true
+position = Vector2(3.75, 4.375)
 shape = SubResource("RectangleShape2D_oj36o")
