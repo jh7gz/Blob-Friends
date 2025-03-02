@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=3 uid="uid://ci7wcw1eo2g4k"]
+[gd_scene load_steps=54 format=3 uid="uid://ci7wcw1eo2g4k"]
 
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_0eti7"]
 [ext_resource type="PackedScene" uid="uid://bsqwadeopehg2" path="res://Levels/player_cat.tscn" id="1_k0pve"]
@@ -20,6 +20,8 @@
 [ext_resource type="Texture2D" uid="uid://dqkt2rimattom" path="res://assets/Objects/Friend Third.png" id="16_np2dk"]
 [ext_resource type="Texture2D" uid="uid://baxq8e1ta7t65" path="res://assets/Objects/Friend Fourth.png" id="17_jkcvi"]
 [ext_resource type="PackedScene" uid="uid://b361e80ef2r7s" path="res://Levels/sign.tscn" id="20_kp7yc"]
+[ext_resource type="PackedScene" uid="uid://b32e0gi73u4a3" path="res://Levels/green_slime_character.tscn" id="21_2fss0"]
+[ext_resource type="PackedScene" uid="uid://dm57ugoapdd33" path="res://Levels/purple_slime_character.tscn" id="22_2e26f"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_62rpm"]
 texture = ExtResource("2_nb4eb")
@@ -827,6 +829,7 @@ unique_name_in_owner = true
 script = ExtResource("1_0eti7")
 
 [node name="PlayerCat" parent="." instance=ExtResource("1_k0pve")]
+unique_name_in_owner = true
 position = Vector2(471, 281)
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="PlayerCat"]
@@ -913,3 +916,23 @@ frame_progress = 0.609808
 
 [node name="Sign" parent="." instance=ExtResource("20_kp7yc")]
 position = Vector2(520, 312)
+
+[node name="Slimes" type="Node" parent="."]
+
+[node name="GreenSlime2" parent="Slimes" instance=ExtResource("21_2fss0")]
+position = Vector2(640, 688)
+
+[node name="GreenSlime4" parent="Slimes" instance=ExtResource("21_2fss0")]
+position = Vector2(280, 600)
+
+[node name="GreenSlime3" parent="Slimes" instance=ExtResource("21_2fss0")]
+position = Vector2(952, 152)
+
+[node name="GreenSlime" parent="Slimes" instance=ExtResource("21_2fss0")]
+position = Vector2(968, 312)
+
+[node name="PurpleSlime" parent="." instance=ExtResource("22_2e26f")]
+position = Vector2(688, 800)
+
+[node name="PurpleSlime2" parent="." instance=ExtResource("22_2e26f")]
+position = Vector2(1360, 360)

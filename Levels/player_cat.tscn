@@ -142,6 +142,7 @@ animations = [{
 size = Vector2(8.5, 8.75)
 
 [node name="Player" type="CharacterBody2D"]
+collision_layer = 2
 script = ExtResource("1_7xai2")
 SPEED = 5000
 
@@ -150,7 +151,7 @@ position = Vector2(2.95455, -1.21808)
 scale = Vector2(0.225741, 0.225741)
 sprite_frames = SubResource("SpriteFrames_l4hh2")
 animation = &"WalkRight"
-frame_progress = 0.63731
+frame_progress = 0.425506
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 y_sort_enabled = true

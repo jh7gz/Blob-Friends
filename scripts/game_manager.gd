@@ -9,8 +9,8 @@ func add_point():
 	if score == 4:
 		win()
 	
-func _shortcut_input(inp):
-	if inp.is_action_pressed("escape"):
+func _shortcut_input(input):
+	if input.is_action_pressed("escape"):
 		get_tree().quit()
 		
 func win():
