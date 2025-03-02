@@ -5,4 +5,4 @@ var score = 0
 
 func add_point():
 	score +=  1;
-	friend_count.text = "Friends Found: " + str(score)
+	friend_count.text = "Friends Found: " + str(score) + "/4"

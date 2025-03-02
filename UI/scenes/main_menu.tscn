@@ -1,7 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://bee4g2jyv8aba"]
+[gd_scene load_steps=8 format=3 uid="uid://bee4g2jyv8aba"]
 
 [ext_resource type="Script" path="res://UI/scenes/main_menu.gd" id="1_ee326"]
-[ext_resource type="FontFile" uid="uid://p8tgxd8rq81c" path="res://UI/CedarvilleCursive-Regular.ttf" id="2_hxdhw"]
 [ext_resource type="Texture2D" uid="uid://8u6r37b1psv6" path="res://UI/Screenshot 2025-03-01 193107.png" id="3_sgw7v"]
 [ext_resource type="PackedScene" uid="uid://bc55yc8itlm1x" path="res://UI/characters/character1_2d.tscn" id="4_i6gx0"]
 
@@ -58,9 +57,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -119.0
-offset_top = -70.0
+offset_top = -61.0
 offset_right = 119.0
-offset_bottom = 159.0
+offset_bottom = 168.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 30
@@ -115,16 +114,15 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -160.5
-offset_top = -283.0
-offset_right = 160.5
-offset_bottom = -151.0
+offset_left = -349.5
+offset_top = -293.0
+offset_right = 350.5
+offset_bottom = -16.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/shadow_offset_x = 10
-theme_override_fonts/font = ExtResource("2_hxdhw")
-theme_override_font_sizes/font_size = 70
-text = "FAT COCK
+theme_override_font_sizes/font_size = 100
+text = "Blob & Friends
 "
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -137,7 +135,7 @@ texture = ExtResource("3_sgw7v")
 [node name="characters" type="Node" parent="."]
 
 [node name="CharacterBody2D" parent="characters" instance=ExtResource("4_i6gx0")]
-position = Vector2(154, 428)
+position = Vector2(1361, 1333)
 
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_homesettings_pressed"]

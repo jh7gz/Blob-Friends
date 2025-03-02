@@ -32,11 +32,12 @@ animations = [{
 }]
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
-position = Vector2(72, 45)
+position = Vector2(1, 0)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(60.375, -2.75)
+position = Vector2(0.999985, 0)
 scale = Vector2(2.47105, 1.94196)
 sprite_frames = SubResource("SpriteFrames_xyfr3")
 autoplay = "default"
-frame_progress = 0.173004
+frame = 2
+frame_progress = 0.571271

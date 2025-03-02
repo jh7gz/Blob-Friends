@@ -12,8 +12,8 @@ func _process(delta: float) -> void:
 
 
 func option1():
-	get_tree().change_scene_to_file("res://scenes/wrong.tscn")
+	get_tree().change_scene_to_file("res://UI/scenes/wrong.tscn")
 
 
 func option2():
-	get_tree().change_scene_to_file("res://scenes/wrong.tscn")
+	get_tree().change_scene_to_file("res://UI/scenes/wrong.tscn")

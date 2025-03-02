@@ -612,15 +612,16 @@ layer_2/tile_data = PackedInt32Array(524304, 131077, 3, 524305, 131077, 3, 52430
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(471, 281)
+zoom = Vector2(3, 3)
 position_smoothing_enabled = true
 
 [node name="Friend count" type="Label" parent="Camera2D"]
 offset_left = -64.0
-offset_top = -75.0
+offset_top = -48.0
 offset_right = 64.0
-offset_bottom = -52.0
+offset_bottom = -25.0
 theme_override_font_sizes/font_size = 8
-text = "Friends Found: 0"
+text = "Friends Found: 0/4"
 horizontal_alignment = 1
 autowrap_mode = 2
 
@@ -634,7 +635,7 @@ position = Vector2(-2.69413e-05, -2.38419e-07)
 scale = Vector2(0.13, 0.13)
 sprite_frames = SubResource("SpriteFrames_38qso")
 autoplay = "default"
-frame_progress = 0.990848
+frame_progress = 0.00138357
 
 [node name="friend" parent="friends" instance=ExtResource("12_7akwp")]
 position = Vector2(368, 656)

@@ -11,4 +11,4 @@ func _process(delta: float) -> void:
 	pass
 
 func badluck() -> void:
-	get_tree().change_scene_to_file("res://main_menu.tscn")
+	get_tree().change_scene_to_file("res://UI/scenes/main_menu.tscn")
