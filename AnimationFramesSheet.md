@@ -1,6 +1,49 @@
+Player Sprite Sheet:
+
 ![alt text](https://media.discordapp.net/attachments/1345480857133121537/1345631393253822495/2025_03_01_13e_Kleki.png?ex=67c54064&is=67c3eee4&hm=5ac76494d5ae23e7a8212bf1a90f524c11c7ccdfa9b78a41bd495ba3b23ed831&=&format=webp&quality=lossless&width=571&height=561)
+
+
+Friend1:
+
 ![alt text](https://media.discordapp.net/attachments/1345480857133121537/1345639239026606131/image.png?ex=67c547b3&is=67c3f633&hm=8baea49ba71edfc320d1c6f7e5d0c770b3dc2dc91876f455e4312422bff36838&=&format=webp&quality=lossless&width=1110&height=303)
+
+
+Friend2:
+
 ![alt text](https://media.discordapp.net/attachments/1345480857133121537/1345640040201457775/image.png?ex=67c54872&is=67c3f6f2&hm=c2de5389169d4baae3191489609f7e66e22d04a6be4c1972dc4c14dd1ff047d7&=&format=webp&quality=lossless&width=1153&height=303)
+
+
+Friend3:
+
 ![alt text](https://media.discordapp.net/attachments/1345480857133121537/1345640483740712982/image.png?ex=67c548dc&is=67c3f75c&hm=315929c7c785d26c19d0dfedf4645edf281db4a82aa43e036ac8d2a46673a94b&=&format=webp&quality=lossless&width=890&height=303)
+
+
+Friend4:
+
 ![alt text](https://media.discordapp.net/attachments/1345480857133121537/1345641093709959188/image.png?ex=67c5496d&is=67c3f7ed&hm=2d1d95bd5b544122ced6a28dcdb636389e82e4d72eae2dfc3531cdb4e180d96f&=&format=webp&quality=lossless&width=1200&height=303)
+
+
+------------------------------
+
+
+Bonus: unused sprites
+
+
+BonusBlob1:
+
 ![alt text](https://media.discordapp.net/attachments/1140401157966143662/1345678793926381683/2025_03_02_04m_Kleki.png?ex=67c56c89&is=67c41b09&hm=abe20319b34972054028f55fc8ab0113a2d7d04616b5fb275fdcdce6d4a32f5f&=&format=webp&quality=lossless&width=131&height=51)
+
+
+More Friend Emotions:
+
+![alt text](https://media.discordapp.net/attachments/1345480835536519188/1345548131735179435/image.png?ex=67c59b99&is=67c44a19&hm=998bc9969b8512c6d03aee68837922ce08d92271b0969b72ac18662806abcf39&=&format=webp&quality=lossless&width=1105&height=303)
+
+
+Cat:
+
+![alt text](https://media.discordapp.net/attachments/1140401157966143662/1345302322795778130/2025_03_01_032_Kleki_2.png?ex=67c55f6c&is=67c40dec&hm=b648db9d70093904f774d32bb146a1c580036d86b3138fb94df4cd3d232f156a&=&format=webp&quality=lossless&width=128&height=98)
+
+
+Left/Right Walking Frames:
+
+![alt text](https://media.discordapp.net/attachments/1345480835536519188/1345525764556329005/image.png?ex=67c586c4&is=67c43544&hm=178eaf6d2663283454adb58e085be333118905ffa77e68d9d1dd93f795ab0d98&=&format=webp&quality=lossless&width=479&height=303)
