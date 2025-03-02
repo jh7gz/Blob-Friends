@@ -69,7 +69,7 @@ WalkDown:
 
 WalkUp:
 
-![hippo](https://media.discordapp.net/attachments/1345480835536519188/1345481274495733800/ezgif.com-animated-gif-maker_5.gif?ex=67c55d55&is=67c40bd5&hm=3191f27a3d9cdb759f93f3a289fa017df472d46db3ff23d0554288c9002156e6&=&width=75&height=123)
+![hippo](https://media.discordapp.net/attachments/1345480835536519188/1345807886793572443/ezgif.com-animated-gif-maker_17.gif?ex=67c5e4c4&is=67c49344&hm=f7424a5647ded48788aebd13ae5daef6f34e0f8e0a7360302db7511905eca478&=&width=89&height=129)
 
 
 WalkRight:
